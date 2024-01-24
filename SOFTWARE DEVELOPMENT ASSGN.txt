@@ -1,0 +1,73 @@
+
+ 
+PROGRAMME: BSCS 
+LECTURERS: MR. SIMON LUBAMBO
+MUGANGA CHARLES
+TRACY NAJJOBA A95681
+AROU ISAAC MAYOL A94165
+MOGA MUZAMIL WAHAB A94166
+TRACY NAJJOBA A95681
+
+
+What is the software development life cycle (SDLC)?
+
+The software development life cycle (SDLC) is the process of planning, writing, modifying, and maintaining software. Developers use the methodology as they design and write modern software for computers, cloud deployment, mobile phones, video games, and more. Adhering to the SDLC methodology helps to optimize the final outcome.
+
+7 stages of the software development life cycle
+
+Stage 1: Plan and brainstorm.
+The first step in the software development life cycle is planning. It's when you gather the team to brainstorm, set goals, and identify risks. At this stage, the team will work together to devise a set of business goals, requirements, specifications, and any high-level risks that might hinder the project's success.
+
+Stage 2: Analyze requirements.
+Once you've come up with some ideas, it's time to organize them into a cohesive plan and design. This requires a lot of research and planning to ensure that your final product meets your expectations (and those of your customers). The big step is creating a detailed project plan document and work breakdown structure that outlines the requirements.
+
+Stage 3: Design the mockups.
+Once you've got your design plans in front of you, it's time for wireframing and mockups. This step builds upon the planning stage, building out the tasks you need to do in the work breakdown schedule. There are plenty of tools available, such as Adobe XD or InVision, that make this process much easier than ever before.
+
+Stage 4: Develop the code.
+The development phase is where coding begins to take place. It is one of the most time-consuming phases in the SDLC. This phase often requires extensive programming skills and knowledge of databases. The team will build functionality for the product or service, which includes creating a user interface and building the database so users can store information in your system.
+
+Stage 5: Test the product.
+Before releasing the mockups into final production, you'll need to test it to ensure it is free of bugs and errors. Any issues need to be fixed before moving forward with deployment. You'll also need to manage how the system will integrate into existing systems, software, and processes.
+
+Stage 6: Implement and launch the product.
+Once you've completed all testing phases, it's time to deploy your new application for customers to use. After deployment, the launch may involve marketing your new product or service so people know about its existence. If the software is in-house, it may mean implementing the change management process to ensure user training and acceptance.
+
+Stage 7: Set up maintenance and operations.
+The final stage of the software development life cycle is maintenance and operations. This is one of the most critical stages because it's when your hard work gets put to the test.
+Maintenance involves updating an existing software product to fix bugs and ensure reliability. It can also include adding new features or functionality to a current product. Operations refer to the day-to-day running of a software product or service, such as performing backups and other administrative tasks.
+
+METHODS USED BY TOP COMPANIES
+
+Microsoft: Agile/Scrum Cycle
+Planning: Dynamic planning with adaptability to changing requirements.
+Analysis: Continuous gathering and analysis of user stories and requirements.
+Design: Incremental design specifications developed as features are worked on.
+Implementation (Coding): Code is written in short, focused sprints with continuous integration.
+Testing: Automated testing is integrated into development sprints.
+Deployment: Continuous deployment allows for regular releases of small increments.
+Maintenance: Ongoing maintenance with regular feedback loops for improvements.
+
+Google: DevOps Cycle
+Planning: Continuous planning with adaptability based on ongoing feedback and changes.
+Analysis: Continuous gathering of user feedback with data analysis shaping the product.
+Design: Design evolves with the product, incorporating feedback and insights.
+Implementation (Coding): Continuous integration and deployment with a focus on rapid, automated processes.
+Testing: Automated testing is integrated into the continuous deployment pipeline.
+Deployment: Frequent releases with continuous deployment practices.
+Maintenance: Continuous monitoring and quick response to issues or enhancements.
+
+IBM: Agile and Hybrid Approaches
+Planning: Adaptive planning based on Agile principles, with flexibility for project needs.
+Analysis: Ongoing gathering and analysis of requirements, adapting to changes.
+Design: Hybrid design approach, combining Agile principles with structured design when needed.
+Implementation (Coding): Agile development practices with iterative coding and flexibility.
+Testing: Agile testing practices integrated into development cycles.
+Deployment: Agile deployment practices, adapting to project requirements.
+Maintenance: Ongoing support with flexibility for updates and improvements.
+
+
+
+
+
+

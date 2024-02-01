@@ -1,3 +1,10 @@
+'''
+ Explanation of Refactoring: This refactoring demonstrates SOLID principles.
+    The Single Responsibility Principle (SRP) is applied by having Book and Movie classes manage their own data and behavior, while MediaLibrary is responsible for the collection management. 
+    The Open/Closed Principle (OCP) is evident as new media types can be integrated by adding new classes inheriting from Media, without modifying MediaLibrary. The Liskov Substitution Principle (LSP) ensures that Book and Movie can be used interchangeably as they are substitutable for their parent class, Media.
+    The Interface Segregation Principle (ISP) is addressed by the Media abstract class, which serves as a contract for different media types, allowing for the creation of specific interfaces for varied media categories. Lastly, the Dependency Inversion Principle (DIP) is observed where both the MediaLibrary and individual media types like Book and Movie depend on the Media abstraction, ensuring a decoupling of high-level data handling from low-level data types.
+''' 
+
 from abc import ABC, abstractmethod
 
 class Media(ABC):

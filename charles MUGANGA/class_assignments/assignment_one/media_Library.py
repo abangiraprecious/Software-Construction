@@ -7,14 +7,14 @@ class MediaLibrary:
             self.add_book(media)
         elif isinstance(media, Movie):
             self.add_movie(media)
-        # ... other media types
+        # other media types if any
 
     def add_book(self, book):
-        # add book to library
+        # adding a book to library
         pass
 
     def add_movie(self, movie):
-        # add movie to library
+        # adding a movie to library
         pass
 
 class Book:

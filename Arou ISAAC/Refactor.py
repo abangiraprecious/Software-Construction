@@ -10,5 +10,14 @@ class Report:
         elif employee.role == "Developer":
              print(f"Developer Report: {developer.name}")
 
+class BonusCalculator:
+    def calculate_bonus(self, employee):
+        if employee.role == "Manager":
+            return 1000
+        elif employee.role == "Developer":
+           return 500
+        
+
+
 
         

@@ -26,6 +26,14 @@ class Developer(Employee):
     
     def code_review(self):
         print(f"{self.name} is conducting a code review.")
+
+if __name__ == "__main__":
+    manager = Manager("Alice", "Manager")
+    developer = Developer("Bob", "Developer")
+
+    report_generator = Report()
+    report_generator.generate_report(manager)
+    report_generator.generate_report(developer)
         
 
 

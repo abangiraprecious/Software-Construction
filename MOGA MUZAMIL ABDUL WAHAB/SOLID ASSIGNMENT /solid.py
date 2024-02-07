@@ -21,3 +21,12 @@ class Employee(ABC):
     # Manager's specific task.
     def execute_tasks(self):
         print(f"{self.identifier} is managing the team.")
+
+    class Developer(Employee):
+    # Determine bonus for an Developer.
+    def compute_reward(self):
+        return 500
+
+    # Developer's specific task.
+    def execute_tasks(self):
+        print(f"{self.identifier} is conducting a code review.")

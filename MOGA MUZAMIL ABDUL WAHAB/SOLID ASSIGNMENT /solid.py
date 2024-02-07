@@ -30,3 +30,8 @@ class Employee(ABC):
     # Developer's specific task.
     def execute_tasks(self):
         print(f"{self.identifier} is conducting a code review.")
+
+    class ReportGenerator:
+    # Create a role-based performance report.
+    def create_report(self, staff):
+        print(f"{staff.__class__.__name__} Report: {staff.identifier}")

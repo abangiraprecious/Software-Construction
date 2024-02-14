@@ -29,6 +29,34 @@ class Authentication {
         }
     }
 
+    // another method for login
+    public function login($username, $password) {
+        try {
+            // Fetching user details from the database
+            $stmt = $this->db->prepare("SELECT id, password FROM users WHERE username = ?");
+            $stmt->bind_param("s", $username);
+            $stmt->execute();
+            $result = $stmt->get_result();
+
+            if ($result->num_rows == 1) {
+                $row = $result->fetch_assoc();
+
+                // Verify the users entered password against the stored hash
+                if (password_verify($password, $row['password'])) {
+                    // return a success message if the password is correct
+                    return "Login successful"; 
+                } else {
+                    return "Invalid credentials";
+                }
+            } else {
+                return "Invalid credentials";
+            }
+
+        } catch (Exception $e) {
+            return "Login failed: " . $e->getMessage(); 
+        }
+    }
+
     private function isValidPassword($password) {
         // Strong password validation for entered password
         return preg_match('/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/', $password);

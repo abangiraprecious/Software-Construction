@@ -1,18 +1,19 @@
 <?php
 
 class Authentication {
+    // connection to the database connection 
     private $db; 
 
     public function __construct($db) {
-        $this->db = $db; 
+        $this->db = $db; // Storing  the database connection
     }
 
     public function register($username, $password, $email) {
-
+        // Input validation & sanitization 
         if (!$this->isValidPassword($password)) {
             return "Password does not meet complexity requirements";
         } 
-
+         // Hashing the password for secure storage
         $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
         try {
@@ -23,11 +24,13 @@ class Authentication {
             return "User registered successfully";
 
         } catch (Exception $e) {
+            // Handling database errors gracefully
             return "Registration failed: " . $e->getMessage(); 
         }
     }
 
     private function isValidPassword($password) {
+        // Strong password validation for entered password
         return preg_match('/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/', $password);
     }
 

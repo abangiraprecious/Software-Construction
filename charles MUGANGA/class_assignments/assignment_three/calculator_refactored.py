@@ -1,19 +1,19 @@
-class Calculator:
+class Calculator_Refactored:
+   
+    @staticmethod
+    def add(number_one, number_two ):
+        return number_one + number_two 
 
     @staticmethod
-    def add(a, b):
-        return a + b
+    def subtract(number_one, number_two):
+        return number_one - number_two
 
     @staticmethod
-    def subtract(a, b):
-        return a - b
+    def multiply(number_one, number_two):
+        return number_one * number_two
 
     @staticmethod
-    def multiply(a, b):
-        return a * b
-
-    @staticmethod
-    def divide(a, b):
-        if b == 0:
+    def divide(number_one, number_two):
+        if number_two == 0:
             raise ValueError("Cannot divide by zero.")
-        return a / b
+        return number_one / number_two

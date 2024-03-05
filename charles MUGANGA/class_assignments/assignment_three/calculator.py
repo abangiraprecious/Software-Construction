@@ -1,15 +1,14 @@
 class Calculator:
+    def add(self, number_one , number_two ):
+        return number_one  + number_two 
 
-    def add(self, num1 , num2 ):
-        return num1  + num2 
+    def subtract(self, number_one , number_two ):
+        return number_one  - number_two 
 
-    def subtract(self, num1 , num2 ):
-        return num1  - num2 
+    def multiply(self, number_one , number_two ):
+        return number_one  * number_two 
 
-    def multiply(self, num1 , num2 ):
-        return num1  * num2 
-
-    def divide(self, num1 , num2 ):
-        if num2  == 0:
+    def divide(self, number_one , number_two ):
+        if number_two  == 0:
             raise ValueError("Cannot divide by zero.")
-        return num1 / num2 
+        return number_one / number_two 

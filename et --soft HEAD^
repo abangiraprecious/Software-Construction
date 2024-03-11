@@ -1,0 +1,255 @@
+[33mcommit c282b20f2c7c30edf7b582c09abe8c6b14ac0d42[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: AROU ISAAC <arouisaac1@gmail.com>
+Date:   Sun Feb 18 02:05:29 2024 +0300
+
+    Addressed inconsistent naming conventions and added comprehensive comments for better code comprehension
+
+[33mcommit a0bc248c0da10aaeb91fcd9d4f8c52964f6efed7[m
+Merge: 1798978 6afa6e4
+Author: AROU ISAAC <arouisaac1@gmail.com>
+Date:   Sun Feb 18 01:43:55 2024 +0300
+
+    Merge branch 'main' of https://github.com/muganga-charles/Software-Construction
+
+[33mcommit 1798978e535b4f983615762ed9289b988c2586b9[m
+Author: unknown <arouisaac1@gmail.com>
+Date:   Sun Feb 18 01:29:11 2024 +0300
+
+    refactored code
+
+[33mcommit 6afa6e42d5b8db701dff0aa65f2532fbee69f4c1[m
+Merge: 4526090 7b0a913
+Author: MOGAMAW <92805881+MogaMAW@users.noreply.github.com>
+Date:   Thu Feb 15 19:38:27 2024 +0300
+
+    Merge pull request #5 from MogaMAW/main
+    
+    Add cousera intro to using git
+
+[33mcommit 7b0a9136e13d6e37d5cef58a9f3a6115cf04e0c4[m
+Merge: 1f7ecf3 4526090
+Author: MOGAMAW <92805881+MogaMAW@users.noreply.github.com>
+Date:   Thu Feb 15 18:44:06 2024 +0300
+
+    Merge branch 'muganga-charles:main' into main
+
+[33mcommit 1f7ecf302166023d5e1300cfed0cfc1c38febb1b[m
+Author: MogaMAW <moga.m.abdulwahab@gmail.com>
+Date:   Thu Feb 15 18:34:32 2024 +0300
+
+    add intro to using git from cousera
+
+[33mcommit d7cc54fa3157fd5d1e7adb8b1f18c8880aebef37[m
+Author: MogaMAW <moga.m.abdulwahab@gmail.com>
+Date:   Thu Feb 15 18:33:04 2024 +0300
+
+    add assignment two
+
+[33mcommit 45260909e8208eb0c9481a60a1b2c5a7ab047144[m
+Author: muganga-charles <mugangacharles5@gmail.com>
+Date:   Wed Feb 14 19:25:54 2024 +0300
+
+    including another method
+
+[33mcommit 328c76d7818052e1864a0f8a9ce52725ac97bfd4[m
+Author: muganga-charles <mugangacharles5@gmail.com>
+Date:   Wed Feb 14 19:23:46 2024 +0300
+
+    including comments for easy code understanding
+
+[33mcommit 5bd83edcece71657a3c28adb0a7ad6d8a3b014ef[m
+Author: muganga-charles <mugangacharles5@gmail.com>
+Date:   Wed Feb 14 19:19:50 2024 +0300
+
+    documentation of the revised class
+
+[33mcommit 5b68d0c67905d36b3dfa6642ddffb81717f61aff[m
+Author: muganga-charles <mugangacharles5@gmail.com>
+Date:   Wed Feb 14 19:11:42 2024 +0300
+
+    documentation of the initial code
+
+[33mcommit a2749b73892dd2ece2bc628346aa56132b184838[m
+Author: muganga-charles <mugangacharles5@gmail.com>
+Date:   Wed Feb 14 19:04:39 2024 +0300
+
+    refactord code with Proposed Changes implementated
+
+[33mcommit 2364ba341e54e5497d1a25559ed51f41b96224a4[m
+Author: muganga-charles <mugangacharles5@gmail.com>
+Date:   Wed Feb 14 19:02:51 2024 +0300
+
+    Assignment two question files
+
+[33mcommit 9640be92194fb753282aec5708ba506727ff3b86[m
+Merge: 0685218 2ad32c6
+Author: MOGAMAW <92805881+MogaMAW@users.noreply.github.com>
+Date:   Wed Feb 14 18:06:01 2024 +0300
+
+    Merge pull request #4 from MogaMAW/main
+    
+    INTRODUCTION TO GIT
+
+[33mcommit 2ad32c6dc654aa0e62328ad20e6e0f0cc5f95d7e[m
+Author: MOGAMAW <92805881+MogaMAW@users.noreply.github.com>
+Date:   Tue Feb 13 20:29:01 2024 +0300
+
+    Delete MOGA MUZAMIL ABDUL WAHAB/COURSERA/INTRODUCTION TO GIT directory
+
+[33mcommit e317b27cc35d105c1ce6480d23422717b729cc38[m
+Merge: 62c1216 0685218
+Author: MogaMAW <moga.m.abdulwahab@gmail.com>
+Date:   Tue Feb 13 20:25:26 2024 +0300
+
+    Merge branch 'main' of https://github.com/MogaMAW/Software-Construction
+
+[33mcommit 62c121638daae2668f41ba88713aaba88ed1114d[m
+Author: MogaMAW <moga.m.abdulwahab@gmail.com>
+Date:   Tue Feb 13 20:25:01 2024 +0300
+
+    Modified import of psutil in cpu_usage.py for implementation.
+
+[33mcommit 16bcf9a1bb6768cf6dbccdabe395b2f3d9e3cd6c[m
+Merge: a8cbd91 f055732
+Author: MogaMAW <moga.m.abdulwahab@gmail.com>
+Date:   Tue Feb 13 19:19:47 2024 +0300
+
+    Merge branch 'main' of https://github.com/MogaMAW/Software-Construction
+
+[33mcommit a8cbd9161b41c6f9cf06c6c84cda5e209737602e[m
+Author: MogaMAW <moga.m.abdulwahab@gmail.com>
+Date:   Tue Feb 13 19:11:24 2024 +0300
+
+    Reformats name Last,First to First Last if Valid.
+
+[33mcommit 1841f8eee96827cb9908c7c5427d0d6dac3f872d[m
+Author: MogaMAW <moga.m.abdulwahab@gmail.com>
+Date:   Tue Feb 13 18:58:17 2024 +0300
+
+    Reformats name from Last,First to First Last if valid.
+    git commit -m
+    
+    git add Rearrange_comparrison.py
+    ..
+    
+    git commit -m see.
+
+[33mcommit 1d8005e126c24760d3d7274ee0d76bb8c44a31c0[m
+Author: MogaMAW <moga.m.abdulwahab@gmail.com>
+Date:   Tue Feb 13 18:47:55 2024 +0300
+
+    Reformats name from Last,First to First Last if valid
+
+[33mcommit 068521884d7f5d93cb0923e1837a33c0cf9d281a[m
+Merge: ce6a84c f055732
+Author: Muganga_Charles <104686307+muganga-charles@users.noreply.github.com>
+Date:   Tue Feb 13 18:29:16 2024 +0300
+
+    Merge pull request #3 from MogaMAW/main
+    
+    Adding coursera files
+
+[33mcommit f055732ac3b02e13ce5110c283bb7071a8bbbb91[m
+Merge: 4a369e0 ce6a84c
+Author: MOGAMAW <92805881+MogaMAW@users.noreply.github.com>
+Date:   Tue Feb 13 18:26:26 2024 +0300
+
+    Merge branch 'muganga-charles:main' into main
+
+[33mcommit 4a369e075fc401db483f2e1a4094503a3021473f[m
+Author: MogaMAW <moga.m.abdulwahab@gmail.com>
+Date:   Tue Feb 13 18:05:24 2024 +0300
+
+    The code checks if CPU usage exceeds 75%. Prints status accordingly.
+
+[33mcommit 4e9adb9dde621a0bb42789882a25bcdda0e5d965[m
+Author: MogaMAW <moga.m.abdulwahab@gmail.com>
+Date:   Tue Feb 13 18:02:49 2024 +0300
+
+    Cpu_Usage.py Code checks CPU usage with psutil, returns acceptability based on threshold.
+
+[33mcommit ce6a84c08c13d7ad4e712fd9bd4dbb6fecae38a8[m
+Merge: 87ab4a1 e41d78a
+Author: MOGAMAW <92805881+MogaMAW@users.noreply.github.com>
+Date:   Thu Feb 8 20:24:15 2024 +0300
+
+    Merge pull request #2 from MogaMAW/main
+    
+    fix: remove trailing spaces in the folder
+
+[33mcommit a9093bdb0b044d2b5915794b5862b1fa10842735[m
+Author: MogaMAW <moga.m.abdulwahab@gmail.com>
+Date:   Thu Feb 8 20:13:04 2024 +0300
+
+    fix: remove trailing spaces in the folder
+
+[33mcommit e41d78a3d8980e63d4c7b25d5dc97ef827ed53fc[m
+Author: MogaMAW <moga.m.abdulwahab@gmail.com>
+Date:   Thu Feb 8 20:13:04 2024 +0300
+
+    fix: remove trailing spaces in the folder
+
+[33mcommit 87ab4a17f95f2ab2ca21bd188c26c660fcefb0af[m
+Merge: cdbaaa0 84f3c5d
+Author: MOGAMAW <92805881+MogaMAW@users.noreply.github.com>
+Date:   Wed Feb 7 19:59:52 2024 +0300
+
+    Merge pull request #1 from MogaMAW/main
+    
+    solid assignment
+
+[33mcommit a230e22c0e54904259790a7cc303ac3732731d79[m
+Author: MogaMAW <moga.m.abdulwahab@gmail.com>
+Date:   Wed Feb 7 17:22:45 2024 +0300
+
+    Use staff member's method to calculate the bonus.
+
+[33mcommit 84f3c5d4b4aa4d35c5460620897279d7b8cfc644[m
+Author: MogaMAW <moga.m.abdulwahab@gmail.com>
+Date:   Wed Feb 7 17:22:45 2024 +0300
+
+    Use staff member's method to calculate the bonus.
+
+[33mcommit 6b0da39b8f07b9150b4b5e3be34d662bade80e30[m
+Author: MogaMAW <moga.m.abdulwahab@gmail.com>
+Date:   Wed Feb 7 17:20:51 2024 +0300
+
+    Create a role-based performance report
+
+[33mcommit ead8948d41b2c91d840e4c8037196af508be317d[m
+Author: MogaMAW <moga.m.abdulwahab@gmail.com>
+Date:   Wed Feb 7 17:20:51 2024 +0300
+
+    Create a role-based performance report
+
+[33mcommit de5f2a6dd1aa64de903bd0def4ca89bfc8b31d59[m
+Author: MogaMAW <moga.m.abdulwahab@gmail.com>
+Date:   Wed Feb 7 17:19:48 2024 +0300
+
+    Determine bonus for an Developer.
+
+[33mcommit 245cf3ba24169eabe679f9f0cb1c199c2b5130b6[m
+Author: MogaMAW <moga.m.abdulwahab@gmail.com>
+Date:   Wed Feb 7 17:19:48 2024 +0300
+
+    Determine bonus for an Developer.
+
+[33mcommit 055720ae7ca8aec7d4ef6ce717f196a509574282[m
+Author: MogaMAW <moga.m.abdulwahab@gmail.com>
+Date:   Wed Feb 7 17:18:16 2024 +0300
+
+    Calculate bonus for a Manager.
+
+[33mcommit 6369d02d03e03067c77ad4c4352cdb90ee4fb5dd[m
+Author: MogaMAW <moga.m.abdulwahab@gmail.com>
+Date:   Wed Feb 7 17:18:16 2024 +0300
+
+    Calculate bonus for a Manager.
+
+[33mcommit d8563464b7aa294106380c1cac78bc6d633c3905[m
+Author: unknown <arouisaac1@gmail.com>
+Date:   Wed Feb 7 15:44:46 2024 +0300
+
+    Add script to check for pending reboot and disk full condition
+
+[33mcommit 0f093d9d1ebacd4c50a8d

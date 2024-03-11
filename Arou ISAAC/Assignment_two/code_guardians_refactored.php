@@ -56,3 +56,11 @@ class Authentication {
             return "Login failed: " . $e->getMessage(); 
         }
     }
+
+    private function isValidPassword($password) {
+        // Strong password validation for entered password
+        return preg_match('/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/', $password);
+    }
+
+}
+?>

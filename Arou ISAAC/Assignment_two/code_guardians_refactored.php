@@ -51,3 +51,8 @@ class Authentication {
             } else {
                 return "Invalid credentials";
             }
+
+        } catch (Exception $e) {
+            return "Login failed: " . $e->getMessage(); 
+        }
+    }

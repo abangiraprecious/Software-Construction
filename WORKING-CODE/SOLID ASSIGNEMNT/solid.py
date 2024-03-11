@@ -12,3 +12,8 @@ class Employee(ABC):
     def execute_tasks(self):
         """Carry out specific tasks based on the staff role."""
         pass
+
+class Manager(Employee):
+    # Calculate bonus for a Manager.
+    def compute_reward(self):
+        return 1000

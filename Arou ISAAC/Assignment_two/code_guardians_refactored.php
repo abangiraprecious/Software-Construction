@@ -40,3 +40,11 @@ class Authentication {
 
             if ($result->num_rows == 1) {
                 $row = $result->fetch_assoc();
+
+                // Verify the users entered password against the stored hash
+                if (password_verify($password, $row['password'])) {
+                    // return a success message if the password is correct
+                    return "Login successful"; 
+                } else {
+                    return "Invalid credentials";
+                }

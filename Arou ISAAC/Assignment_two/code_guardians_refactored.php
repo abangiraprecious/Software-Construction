@@ -48,3 +48,6 @@ class Authentication {
                 } else {
                     return "Invalid credentials";
                 }
+            } else {
+                return "Invalid credentials";
+            }

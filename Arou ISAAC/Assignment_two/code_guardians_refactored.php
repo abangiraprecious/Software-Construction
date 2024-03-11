@@ -28,3 +28,12 @@ class Authentication {
             return "Registration failed: " . $e->getMessage(); 
         }
     }
+
+    // another method for login
+    public function login($username, $password) {
+        try {
+            // Fetching user details from the database
+            $stmt = $this->db->prepare("SELECT id, password FROM users WHERE username = ?");
+            $stmt->bind_param("s", $username);
+            $stmt->execute();
+            $result = $stmt->get_result();

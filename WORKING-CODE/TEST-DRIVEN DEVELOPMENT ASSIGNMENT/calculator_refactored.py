@@ -7,3 +7,7 @@ class Calculator_Refactored:
     @staticmethod
     def subtract(number1, number2):
         return number1 - number2
+
+    @staticmethod
+    def multiply(number1, number2):
+        return number1 * number2

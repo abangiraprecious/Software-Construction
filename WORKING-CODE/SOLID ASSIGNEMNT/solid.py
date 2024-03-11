@@ -41,3 +41,14 @@ class BonusCalculator:
     def compute_bonus(self, staff):
         return staff.compute_reward()
 
+if __name__ == "__main__":
+    team_members = [Manager("Alice"), Developer("Bob")]
+
+    performance_report = ReportGenerator()
+    reward_calculator = BonusCalculator()
+
+    for member in team_members:
+        member.execute_tasks()
+        performance_report.create_report(member)
+        reward = reward_calculator.compute_bonus(member)
+        print(f"{member.__class__.__name__} Bonus: ${reward}")

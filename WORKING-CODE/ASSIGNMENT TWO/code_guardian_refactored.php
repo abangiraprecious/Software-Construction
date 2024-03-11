@@ -53,10 +53,11 @@ class Authentication {
             }
 
         } catch (Exception $e) {
+            return "Login failed: " . $e->getMessage(); 
         }
     }
 
-
+  
 
 }
 ?>

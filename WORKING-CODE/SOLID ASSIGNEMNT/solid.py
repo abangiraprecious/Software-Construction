@@ -36,3 +36,8 @@ class ReportGenerator:
     def create_report(self, staff):
         print(f"{staff.__class__.__name__} Report: {staff.identifier}")
 
+class BonusCalculator:
+    # Use staff member's method to calculate the bonus.
+    def compute_bonus(self, staff):
+        return staff.compute_reward()
+

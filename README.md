@@ -19,7 +19,7 @@ construction, focusing on the Software Development Life Cycle (SDLC) and SOLID p
 ## Software Development Life Cycle (SDLC)
 The Software Development Life Cycle (SDLC) is a process used by the software industry to design, develop, and test high-quality software. The SDLC aims to produce software that meets or exceeds customer expectations, reaches completion within times and cost estimates, and is efficient and defect-free. The SDLC involves several distinct stages, including:
 
-Planning: Identifying the scope and defining the project plan.
+- **Planning**: Identifying the scope and defining the project plan.
 Analysis and Requirements Gathering: Understanding and documenting what the software must do.
 Design: Defining how the software will work and what it will look like.
 Implementation (Construction): The actual writing of program code.

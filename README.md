@@ -42,3 +42,4 @@ The Liskov Substitution Principle (LSP) states that objects of a superclass shou
 The Interface Segregation Principle (ISP) states that clients should not be forced to depend on interfaces they do not use. This principle encourages developers to create small, focused interfaces that are specific to the needs of clients, reducing the risk of unnecessary dependencies and making software more maintainable.
 
 ### Dependency Inversion Principle (DIP)
+The Dependency Inversion Principle (DIP) states that high-level modules should not depend on low-level modules, but both should depend on abstractions. This principle helps to decouple modules and reduce dependencies, making software more flexible and easier to maintain.

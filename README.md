@@ -34,3 +34,6 @@ The Single Responsibility Principle (SRP) states that a class should have only o
 
 ### Open/Closed Principle (OCP)
 The Open/Closed Principle (OCP) states that software entities should be open for extension but closed for modification. This principle encourages developers to design software components that can be easily extended without modifying existing code, reducing the risk of introducing bugs or breaking existing functionality.
+
+### Liskov Substitution Principle (LSP)
+The Liskov Substitution Principle (LSP) states that objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program. This principle helps to ensure that subclasses adhere to the same contract as their superclass, preventing unexpected behavior or errors.

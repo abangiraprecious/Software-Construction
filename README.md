@@ -37,3 +37,6 @@ The Open/Closed Principle (OCP) states that software entities should be open for
 
 ### Liskov Substitution Principle (LSP)
 The Liskov Substitution Principle (LSP) states that objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program. This principle helps to ensure that subclasses adhere to the same contract as their superclass, preventing unexpected behavior or errors.
+
+### Interface Segregation Principle (ISP)
+The Interface Segregation Principle (ISP) states that clients should not be forced to depend on interfaces they do not use. This principle encourages developers to create small, focused interfaces that are specific to the needs of clients, reducing the risk of unnecessary dependencies and making software more maintainable.

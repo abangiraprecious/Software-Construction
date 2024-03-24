@@ -28,3 +28,6 @@ The Software Development Life Cycle (SDLC) is a process used by the software ind
 
 ## SOLID Principles
 The SOLID principles are a set of design principles for object-oriented software development intended to make software designs more understandable, flexible, and maintainable.
+
+### Single Responsibility Principle (SRP)
+The Single Responsibility Principle (SRP) states that a class should have only one reason to change, meaning that a class should have only one job or responsibility. This principle helps to ensure that classes are focused and do not become overly complex or difficult to maintain.

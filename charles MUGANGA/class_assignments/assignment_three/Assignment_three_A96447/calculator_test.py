@@ -3,9 +3,9 @@ from calculator import Calculator
 
 class TestCalculator(unittest.TestCase):
 
-    def __init__(self):
-        """Initializes the calculator object."""
-        pass
+    # def __init__(self):
+    #     """Initializes the calculator object."""
+    #     pass
 
     def test_addition(self):#Adds two numbers.
         calc = Calculator()

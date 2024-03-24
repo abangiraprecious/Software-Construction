@@ -22,7 +22,7 @@ The Software Development Life Cycle (SDLC) is a process used by the software ind
 - **Planning**: Identifying the scope and defining the project plan.
 - **Analysis and Requirements Gathering**: Understanding and documenting what the software must do.
 - **Design**: Defining how the software will work and what it will look like.
-Implementation (Construction): The actual writing of program code.
-Testing: Verifying that the software works as intended.
-Deployment: Releasing the software to users.
+- **Implementation (Construction)**: The actual writing of program code.
+- **Testing**: Verifying that the software works as intended.
+- **Deployment**: Releasing the software to users.
 Maintenance: Updating and fixing software as needed post-deployment.

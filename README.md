@@ -16,7 +16,7 @@ construction, focusing on the Software Development Life Cycle (SDLC) and SOLID p
   - [Dependency Inversion Principle (DIP)](#dependency-inversion-principle-dip)
 - [Conclusion](#conclusion)
 
-Software Development Life Cycle (SDLC)
+## Software Development Life Cycle (SDLC)
 The Software Development Life Cycle (SDLC) is a process used by the software industry to design, develop, and test high-quality software. The SDLC aims to produce software that meets or exceeds customer expectations, reaches completion within times and cost estimates, and is efficient and defect-free. The SDLC involves several distinct stages, including:
 
 Planning: Identifying the scope and defining the project plan.

@@ -4,7 +4,6 @@ This repository provides an overview of essential practices and principles in so
 construction, focusing on the Software Development Life Cycle (SDLC) and SOLID principles. Software construction is a crucial phase in the SDLC, involving the detailed creation of working, meaningful software through a combination of coding, verification, unit testing, integration testing, and debugging.
 <br />
 
-
 ## Table of Contents
 - [Software Development Life Cycle (SDLC)](#software-development-life-cycle-sdlc)
 - [SOLID Principles](#solid-principles)

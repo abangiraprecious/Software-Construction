@@ -43,3 +43,6 @@ The Interface Segregation Principle (ISP) states that clients should not be forc
 
 ### Dependency Inversion Principle (DIP)
 The Dependency Inversion Principle (DIP) states that high-level modules should not depend on low-level modules, but both should depend on abstractions. This principle helps to decouple modules and reduce dependencies, making software more flexible and easier to maintain.
+
+Conclusion
+Understanding and applying the concepts of the SDLC and SOLID principles are crucial for software construction. 

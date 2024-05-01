@@ -2,7 +2,7 @@
 // Example code for handling user authentication
 class Authentication {
     public function login($username, $password) {
-        // Authentication logic
+        // Authentication logic implemented
         if ($username === "admin" && $password === "admin") {
             return "Login successful";
         } else {
